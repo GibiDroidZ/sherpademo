@@ -4,7 +4,7 @@ $(document).ready(function()
 
 	$(".button-collapse").sideNav();
 
-	
+
 
 	 // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
     $('.modal-trigger').leanModal();
@@ -58,6 +58,31 @@ $(document).ready(function()
 
     $('a#web__create-sms').click(function()
     {
-	    $('.web__create-message').attr('id', 'web__create-sms');
+	    $('.web__create-form').attr('id', 'web__create-sms');
+        $('#web__create-sms > div > div > h5').text("Send to SMS");
+    })
+
+    $('a#web__create-email').click(function()
+    {
+	    $('.web__create-form').attr('id', 'web__create-email');
+        $('#web__create-email > div > div > h5').text("Send to Email");
+    })
+
+    $('a#web__create-messenger').click(function()
+    {
+	    $('.web__create-form').attr('id', 'web__create-messenger');
+        $('#web__create-messenger > div > div > h5').text("Send to Messenger");
+    })
+
+    $('a#web__create-hangouts').click(function()
+    {
+	    $('.web__create-form').attr('id', 'web__create-hangouts');
+        $('#web__create-hangouts > div > div > h5').text("Send to Hangouts");
+    })
+
+    $('a#web__create-viber').click(function()
+    {
+	    $('.web__create-form').attr('id', 'web__create-viber');
+        $('#web__create-viber > div > div > h5').text("Send to Viber");
     })
 });
