@@ -1,0 +1,131 @@
+
+/*********************************\
+		   Global Format
+\*********************************/
+
+.inline-block
+{
+	display : inline-block;
+}
+
+.remove-margin
+{
+	margin : 0px auto !important;
+}
+
+.add-padding
+{
+	padding : 20px !important;
+}
+
+.add-margin
+{
+	margin : 20px auto;
+}
+
+/*********************************\
+		   Landing Page
+\*********************************/
+
+.modal--custom
+{
+	color : black;
+}
+
+.indicator-item 
+{
+    background-color: #01579b !important;
+}
+
+/*********************************\
+		   Register Page
+\*********************************/
+
+.register__container
+{
+	margin : 40px auto;
+	width : 900px;
+	padding : 20px;
+	min-height : 450px;
+}
+
+.register__form
+{
+	padding : 20px;
+}
+
+#register--form-2,
+#register--form-3
+{
+	display : none;
+}
+
+/*********************************\
+		   Profile Page
+\*********************************/
+
+.text__content p
+{
+	width : 80%;
+	overflow : hidden;
+	display : block;
+	text-overflow : ellipsis;
+	height : 20px; 	
+	white-space: nowrap;
+}
+
+.text__content
+{
+	color : black;
+}
+
+/*********************************\
+		   Web Page
+\*********************************/
+
+.web__settings,
+.web__sent-messages
+{
+	display : none;	
+}
+
+.web__container
+{
+	min-height : 500px;
+}
+
+.web__container > div > ul.web__side-bar > li
+{
+	cursor : pointer;
+	background-color : RGB(240, 240, 240);
+	padding : 5px;
+	margin : 5px 0px;
+}
+
+.web__create-message > div > div > a.prefix
+{
+	color : black;
+}
+
+/*********************************\
+		Create Message Page
+\*********************************/
+
+.icon__hangouts > img
+{
+	width: 45px;
+	margin-left: -4px;
+	margin-top: -1px;
+}
+
+.icon__messenger > img
+{
+	width : 38px;
+}
+
+.icon__viber > img
+{
+	width: 41px;
+	margin-left: -2px;
+	margin-top: -2px;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Devcup 2015 </title>
+
+      <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="../js/materialize.min.js"></script>
+
+      <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!--Import custom css-->
+        <link type="text/css" rel="stylesheet" href="../css/ExDesign.css"  media="screen,projection"/>
+
+        <!--Import custom js-->
+        <script type="text/javascript" src="../js/ExScript.js"></script>
+
+        <!-- Import Material Icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+    </head>
+
+    <body>
+      <nav>
+          <div class="nav-wrapper blue darken-2">
+            <a href="index.html" class="brand-logo">SherpaDemo</a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="modal-trigger" href="#login-modal">Login</a></li>
+              </ul>
+
+              <!-- Modal Structure -->
+              <div id="login-modal" class="modal bottom-sheet modal--custom">
+                  <div class="modal-content">
+                      <h4>Login</h4>
+                      <div class="input-field col s12">
+                          <input id="login-username" type="text" class="validate">
+                          <label for="login-username">Username</label>
+                      </div>
+
+                      <div class="input-field col s12">
+                          <input id="login-password" type="password" class="validate">
+                          <label for="login-password">Password</label>
+                      </div>
+                  </div>
+
+                  <div class="modal-footer">
+                      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Submit</a>
+                  </div>
+              </div>
+          </div>
+      </nav>
+
+      <div class="container card-panel add-margin">
+          <h5>Did you know?</h5>
+          <p>Whenever someone sends you an email, you can use Sherpademo's services to send an SMS message to your mobile number containing  whatever the content of the email is? Please refer to the example below.</p>
+          <b>Note:</b> Settings may vary depending on your mail service provider.
+          <br />
+          <br />
+          1. Create a filter with your email address plus a suffix "+sms" (without quotation marks).
+          <br />
+          <img src="../img/info1.jpg" alt="step1" width="200px"/>
+          <br />
+          2. Click add a forwarding address.
+          <br />
+          <img src="../img/info1.jpg" alt="step2" width="200px"/>
+          <br />
+          3. Enter your Mobile number and add "@cs-development-playground.appspotmail.com" (without quotation marks).
+          <br />
+          <img src="../img/info1.jpg" alt="step3" width="200px"/>
+          <br />
+          4. After successfully adding your mobile number, you will receive a verfication code. Enter the verification code to successfully use the Sherpademo's SMS service.
+          <br />
+          <img src="../img/info1.jpg" alt="step4" width="200px"/>
+
+      </div>
+
+      <footer class="page-footer blue darken-2 remove-margin">
+          <div class="container">
+              <div class="row">
+                  <div class="col l6 s12">
+                      <h5 class="white-text">Sherpa Demo</h5>
+                      <p class="grey-text text-lighten-4">An online tool to send sms messages for free.</p>
+                  </div>
+              
+                  <div class="col l4 offset-l2 s12">
+                      <h5 class="white-text">Related Links</h5>
+                      <ul>
+                          <li><a class="grey-text text-lighten-3" href="#!">Cloud Sherpas Inc.</a></li>
+                          <li><a class="grey-text text-lighten-3" href="#!">Ben Sarmiento</a></li>
+                          <li><a class="grey-text text-lighten-3" href="#!">Gibs Teodosio</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="footer-copyright">
+              <div class="container">
+                  © 2015 SherpaDemo
+                  <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+              </div>
+          </div>
+      </footer>
+  </body>
+</html>
